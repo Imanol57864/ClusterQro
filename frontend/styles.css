@@ -1,0 +1,214 @@
+/**/
+.banner_image {
+  width: auto;
+  height: 500px;
+  background-image: url(/images/portada.png);
+  background-position: center;
+  opacity: 0.5; 
+}
+.banner{
+  background-color: #0C4FAC;
+}
+/**/
+
+/**/
+.theMarquee {
+  font-family: "roc-grotesk";
+  font-weight: bold;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: white;
+  letter-spacing: 5px;
+  padding: 0 6rem;
+  font-size: larger;
+  animation: marquee 10s linear infinite;
+  margin-top: 75px;
+  margin-bottom: 50px;
+
+  /* https://angrytools.com/gradient/ */
+      /* ff 3.6+ */
+      background: -moz-linear-gradient(310deg, rgba(30, 58, 150, 1) 21%, rgba(5, 99, 193, 1) 84%); 
+
+      /* safari 5.1+,chrome 10+ */
+      background: -webkit-linear-gradient(310deg, rgba(30, 58, 150, 1) 21%, rgba(5, 99, 193, 1) 84%);
+  
+      /* opera 11.10+ */
+      background: -o-linear-gradient(310deg, rgba(30, 58, 150, 1) 21%, rgba(5, 99, 193, 1) 84%);
+  
+      /* ie 6-9 */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1E3A96', endColorstr='#0563C1', GradientType=0 );
+  
+      /* ie 10+ */
+      background: -ms-linear-gradient(310deg, rgba(30, 58, 150, 1) 21%, rgba(5, 99, 193, 1) 84%);
+  
+      /* global 94%+ browsers support */
+      background: linear-gradient(310deg, rgba(30, 58, 150, 1) 21%, rgba(5, 99, 193, 1) 84%);
+  /* https://angrytools.com/gradient/ */
+
+}
+/**/
+
+/**/
+.bodyBox {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.theVideo {
+  margin: 100px;
+  height: 600px;
+  width: 600px;
+
+}
+.conferenciasBox {
+  font-family: "roc-grotesk-wide";
+  font-weight: bolder;
+  justify-content: center;
+  height: 600px;
+  margin-top: 100px;
+  margin-left: 75px;
+  display: grid; /*flex = horizontal, grid = vertical*/
+  width: 745px;
+  color: rgb(80, 80, 80);
+  font-weight: 200;
+  justify-content: space-between;
+  min-width: 700px;  
+}
+.conferencistaBox{
+  display: flex;
+  height: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.conferenciasBox__title {
+  letter-spacing: 5px;
+  margin-bottom: 45px;
+}
+.conferencista__foto{
+  margin-right: 65px;
+  height: 85%;
+  margin-left: 25px;
+  display: grid;
+  align-items: bottom;
+}
+.conferencistaBox__info{
+  height: 45%;
+  display: grid;
+  align-items: bottom;
+  justify-items: left;
+  margin-top: 50px;
+}
+.conferencistaBox__info__frase {
+  font-family: "variante_conferencistaBox__info__frase";
+  color:#093777;
+}
+.conferencistaBox__info__nombre {
+  font-family: "variante_conferencistaBox__info__nombre";
+}
+/**/
+
+/**/
+.navbar {
+  font-family: "variante_navbar";
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+  min-width: 700px;
+}
+/**/
+
+/**/
+.bottomBox {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: auto;
+  height: 410px;
+  /* https://angrytools.com/gradient/ */
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(94deg, rgba(30, 58, 150, 1) 21%, rgba(5, 99, 193, 1) 84%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(94deg, rgba(30, 58, 150, 1) 21%, rgba(5, 99, 193, 1) 84%);
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(94deg, rgba(30, 58, 150, 1) 21%, rgba(5, 99, 193, 1) 84%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0563C1', endColorstr='#1E3A96', GradientType=0 );
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(94deg, rgba(30, 58, 150, 1) 21%, rgba(5, 99, 193, 1) 84%);
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(94deg, rgba(30, 58, 150, 1) 21%, rgba(5, 99, 193, 1) 84%);
+  /* https://angrytools.com/gradient/ */
+}
+.bottomBox__inversion {
+  font-family: "roc-grotesk-wide";
+  margin: 0 22%;
+}
+.bottomBox__info {
+  margin-right: 100px;
+  text-align: center;
+}
+.bottomBox__info__name {
+  font-family: "roc-grotesk";
+  font-weight: bolder;
+  
+}
+.bottomBox__info__amount {
+  font-family: "variante_conferencistaBox__info__nombre";
+}
+/**/
+
+/**/
+@font-face {
+  font-family: "roc-grotesk";
+  src: url("https://use.typekit.net/af/97dd77/00000000000000007735b7d4/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/97dd77/00000000000000007735b7d4/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/97dd77/00000000000000007735b7d4/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "roc-grotesk-wide";
+  src: url("https://use.typekit.net/af/c9606e/00000000000000007735b7cd/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/c9606e/00000000000000007735b7cd/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/c9606e/00000000000000007735b7cd/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "variante_conferencistaBox__info__nombre";
+  src: url("https://use.typekit.net/af/bcc24a/00000000000000007735b7c2/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/bcc24a/00000000000000007735b7c2/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/bcc24a/00000000000000007735b7c2/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "variante_conferencistaBox__info__frase";
+  src: url("https://use.typekit.net/af/c9606e/00000000000000007735b7cd/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/c9606e/00000000000000007735b7cd/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/c9606e/00000000000000007735b7cd/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "variante_navbar";
+  src: url("https://use.typekit.net/af/bcc24a/00000000000000007735b7c2/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/bcc24a/00000000000000007735b7c2/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/bcc24a/00000000000000007735b7c2/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+/**/
